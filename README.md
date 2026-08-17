@@ -4,7 +4,7 @@
 
 ## 🚀 在线演示
 
-**访问地址：https://1266ba04e9c3446593a6f7919b08bfab.app.workbuddy.link**
+**访问地址：https://sun-zhenaa.github.io/ai-test-workbench/**
 
 > 纯前端应用，打开即用，无需安装。数据保存在浏览器本地（localStorage）。
 >
