@@ -4,9 +4,11 @@
 
 ## 🚀 在线演示
 
-**访问地址：https://sun-zhenAA.gitee.io/ai-test-workbench**
+**访问地址：https://1266ba04e9c3446593a6f7919b08bfab.app.workbuddy.link**
 
 > 纯前端应用，打开即用，无需安装。数据保存在浏览器本地（localStorage）。
+>
+> 提示：Gitee 已下线个人免费 Pages 服务，因此演示使用 CloudStudio 部署。
 
 ## 📦 功能模块
 
