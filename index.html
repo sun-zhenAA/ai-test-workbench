@@ -1067,7 +1067,7 @@ var clsName='Test'+cfg.name.replace(/[^a-zA-Z0-9]/g,'_').replace(/^./,function(c
 var fnName=cfg.name.replace(/[^a-zA-Z0-9]/g,'_').toLowerCase();
 var ml=cfg.method.toLowerCase();
 var firstParam=cfg.params.length>0?cfg.params[0].name:'param1';
-var normalData={};cfg.params.forEach(function(p){normalData[p.name]=p.sample||p.defaultValue()||'test_value'});
+var normalData={};cfg.params.forEach(function(p){normalData[p.name]=p.sample||p.defaultValue||'test_value'});
 var expectedCode=200;
 var bizCode=0;
 if(cfg.expected){var m1=cfg.expected.match(/"code"\s*:\s*(\d+)/);if(m1)bizCode=parseInt(m1[1]);var m2=cfg.expected.match(/status["\']?\s*[:=]\s*(\d+)/i);if(m2)expectedCode=parseInt(m2[1])}
